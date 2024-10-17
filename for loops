@@ -1,0 +1,29 @@
+total = 0
+i = 1
+while i <= 10:
+    total += i
+    i += 1
+
+u = 0
+
+while u <= 10:
+    if u == 5 or u == 7:
+        u += 1
+        continue
+    print(u)
+    u += 1
+
+total1 = 0
+while True:
+    num = int(input("Enter a number, -1 to stop: "))
+    if num == -1:
+        break
+    total1 += num
+print(total1)
+
+name = "Mr Gallo"
+
+l = 0
+while l < len(name):
+    print(l, name[l])
+    l += 1
